@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Departments</h1>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search for departments..." onkeyup="searchTable('department-table-body')">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Department</th>
+                <th>Contact Number</th>
+            </tr>
+        </thead>
+        <tbody id="department-table-body">
+            <tr>
+                <td>Sales Department</td>
+                <td>123-555-0199</td>
+            </tr>
+            <tr>
+                <td>Support Department</td>
+                <td>123-555-0123</td>
+            </tr>
+            <tr>
+                <td>HR Department</td>
+                <td>123-555-0145</td>
+            </tr>
+            <tr>
+                <td>IT Department</td>
+                <td>123-555-0180</td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="index.html" class="back-button">Back to Home</a>
+    <script src="script.js"></script>
+</body>
+</html>
